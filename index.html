@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}"></link>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="{{ url_for('home') }}">Home</a>
+             | <a href="{{ url_for('foo') }}">About</a>
+             | <a href="{{ url_for('graphs') }}">Graphs and Charts</a>
+        </nav>
+    </header>
+
+    <h1>My Premier League statistics website</h1>
+
+{% block body %}
+
+<p>Welcome to my webpage for my leaving Certificate project. For my project i explored different datasets from a range of different search engines and websites and from that research had the idea of sports statistics. I eventually came across a dataset containing Premier League fixtures from the current season. Each fixture had commonly collected data statisics from each match which i could compare on graphs and visualisations aswell as numerically calculating mean, median, mode and range data. This dataset i chose met all my basic requirements and was a topic i had an intrest in. In this website there is a "Home" page which you are in now, An "About" page with a summary of the Premier League and the page "Graphs and charts" contains 3 visualisations of differnt data from my dataset.</p>
+
+{% endblock %}
+
+</body>
+
+</html>

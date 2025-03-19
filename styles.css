@@ -1,0 +1,24 @@
+body {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    background-color: #cccccc;
+    color: #f8f2f2;
+    background-image: url('../images/premier-league-86d2ur0b5ryesbe7.jpg');
+    height: 20dvh;
+    background-size: contain;
+    background-position: center;
+;
+
+}
+
+
+.graphs-block {
+margin-left: 20px;
+
+}
+
+.background-image {
+margin-left: 10px;
+margin-bottom: 10px;
+}
+

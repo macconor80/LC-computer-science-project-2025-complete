@@ -1,0 +1,7 @@
+{
+    "api_base_url": "https://datahub.io/core/english-premier-league/_r/-/",
+    "api_file_name_template": "season-<Y1Y2>.csv",
+    "api_data_folder": "api_data/",
+    "seasons": ["2425", "2324", "2223"],
+    "database": "lc_project.db"
+}

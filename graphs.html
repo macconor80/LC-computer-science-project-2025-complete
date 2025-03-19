@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+<!-- the { % yada-yada-yada % } are Jinja directives - they instruct Jinja (the templatenig engine to do something)-->
+{% block body %}
+<div class="graphs_block">
+    {{ bar_chart|safe }} 
+</div>
+<div class="graphs_block">
+    {{ pie_chart|safe }} 
+</div>
+<div class="graphs_block">
+    {{ scatter_chart|safe }}    
+</div>
+
+{% endblock %}
