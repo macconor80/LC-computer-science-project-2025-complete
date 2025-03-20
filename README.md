@@ -4,6 +4,7 @@ Website
 
 Enter website folder and set up environment:
 in Powershell
+`
 python3 -m venv.
 source Scripts\Activate.ps1
 pip install -r requirements.txt
